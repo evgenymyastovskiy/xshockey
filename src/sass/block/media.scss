@@ -1,0 +1,677 @@
+/* Media Queries */
+
+/* 992-1170px */
+@media screen and (max-width: 1170px) {
+
+  .container {
+    width: 950px;
+  }
+
+  .leftMenu__link,
+  .rightMenu__link {
+    font-size: 16px;
+  }
+
+  .topArt__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .topArt {
+    width: 237.5px;
+  }
+
+  .topArt:nth-child(5),
+  .topArt:nth-child(6),
+  .topArt:nth-child(7),
+  .topArt:nth-child(8) {
+    height: 120px;
+  }
+
+  .topArt:nth-child(5) .topArt__title {
+    line-height: 20px;
+  }
+
+  .topArt:nth-child(6) .topArt__title {
+    line-height: 20px;
+  }
+
+  .topArt:nth-child(7) .topArt__title {
+    line-height: 20px;
+  }
+
+  .topArt:nth-child(8) .topArt__title {
+    line-height: 20px;
+  }
+
+  .news__aside {
+    width: 237.5px
+  }
+
+  .news__items {
+    width: 73%;
+  }
+
+  .news__item {
+    width: 222px;
+  }
+
+  .news__item-title {
+    font-size: 19px;
+  }
+
+  .rekl__link img {
+    width: 100%;
+  }
+
+  .tournaments__item {
+    width: 180px;
+  }
+
+  .tournaments__title {
+    font-size: 17px;
+  }
+
+  .tournaments__link {
+    width: 90px;
+  }
+
+  .special__news {
+    width: 73%;
+    height: min-content;
+  }
+
+  .special__item {
+    width: 222px;
+    height: min-content;
+  }
+
+  .aside {
+    width: 237.5px;
+  }
+
+  .aside .challenge__item {
+    width: 100%;
+    height: 415px;
+  }
+
+  .challenge__wrap .challenge__item {
+    width: 230px;
+  }
+
+  .winners__item {
+    width: 180px;
+  }
+
+  .winners__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .winners__img:after {
+    width: 180px;
+    height: 180px;
+  }
+
+  .topArtContainerSec .topArt {
+    height: 158px;
+  }
+
+  .news-catalog__preview {
+    height: 200px;
+  }
+
+  .news-page__main-title {
+    width: 78%;
+  }
+
+  .winners__birthday,
+  .winners__title {
+    font-size: 15px;
+  }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftMenu__item,
+  .rightMenu__item {
+    margin-right: 17px;
+  }
+
+  .leftMenu__link,
+  .rightMenu__link {
+    font-size: 14px;
+  }
+
+  .winners__list {
+    overflow: auto;
+    height: 215px;
+  }
+
+  .hotter .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .topArtContainer {
+    overflow: auto;
+    flex-wrap: initial;
+    display: -webkit-box;
+  }
+
+  .topArtContainerSec .topArt .topArt__title {
+    font-size: 19px;
+  }
+
+  .searchForm input {
+    width: 150px;
+  }
+
+  .lc__btn {
+    margin-left: 10px;
+  }
+
+  .news__items {
+    width: 100%;
+  }
+
+  .news__aside-rekl {
+    display: none;
+  }
+
+  .news__item {
+    width: 230px;
+  }
+
+  .tournaments__items {
+    overflow: auto;
+    display: -webkit-box;
+    height: 402px;
+    align-items: center;
+    display: flex;
+  }
+
+  .tournaments__item {
+    width: 190px;
+    margin: 0px 10px 0px 10px;
+    height: 362px;
+  }
+
+  .special {
+    flex-direction: column;
+  }
+
+  .special__news {
+    width: 100%;
+  }
+
+  .special__item {
+    width: 229px;
+  }
+
+  .challenge__wrap {
+    flex-direction: column;
+  }
+
+  .challenge__wrap .challenge__item {
+    width: 100%;
+    height: 120px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .challenge__info .challenge__logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .challenge__img {
+    width: auto;
+    height: 100%;
+  }
+
+  .challenge__btn-wrap {
+    margin-bottom: 0;
+    align-items: flex-end;
+  }
+
+  .challenge__timer {
+    align-items: flex-start;
+  }
+
+  .challenge__timer {
+    align-items: flex-start;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  .challenge__info {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .winners__item {
+    margin: 0px 6px;
+  }
+
+  .news-catalog__preview {
+    height: 155px;
+  }
+
+  .news-catalog__subtitle {
+    font-size: 17px;
+  }
+
+  .news-catalog__introtext {
+    font-size: 14px;
+    line-height: 1.45em;
+  }
+
+  .news-page__content-wrap {
+    flex-direction: column;
+  }
+
+
+
+  .news-page__content {
+    width: 100%;
+  }
+
+  .news-page__recent-wrap {
+    flex-wrap: initial;
+    overflow: auto;
+    display: -webkit-box;
+  }
+
+  .news-page__recent-item {
+    width: 48.5%;
+    margin-right: 20px;
+  }
+
+  .challenge-cat__list .challenge-cat__finish .challenge-cat__items .challenge-cat__item .challenge__timer,
+  .challenge-cat__list .challenge-cat__now .challenge-cat__items .challenge-cat__item .challenge__timer,
+  .challenge-cat__list .challenge-cat__anons .challenge-cat__items .challenge-cat__item .challenge__timer {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .challenge-cat__list .challenge-cat__finish .challenge-cat__items .challenge-cat__item .challenge__info,
+  .challenge-cat__list .challenge-cat__now .challenge-cat__items .challenge-cat__item .challenge__info,
+  .challenge-cat__list .challenge-cat__anons .challenge-cat__items .challenge-cat__item .challenge__info {
+    align-items: center;
+  }
+
+  .challenge-cat__list .challenge-cat__finish .challenge-cat__items .challenge-cat__item,
+  .challenge-cat__list .challenge-cat__now .challenge-cat__items .challenge-cat__item,
+  .challenge-cat__list .challenge-cat__anons .challenge-cat__items .challenge-cat__item {
+    padding: 10px 5px;
+  }
+
+  .challenge-cat .challenge-cat__list .challenge-cat__items {
+    overflow: auto;
+  }
+
+
+}
+
+/* 576-768px */
+@media screen and (max-width: 767px) {
+  .menu {
+    top: 40px;
+  }
+
+  .container {
+    width: 540px;
+  }
+
+  .leftMenu,
+  .rightMenu,
+  .searchLc {
+    display: none;
+  }
+
+
+
+  .searchLc__mobile .search input {
+    position: relative;
+    background: transparent;
+    border: 1px solid #3a3a3a;
+    z-index: 8;
+    width: 100%;
+    height: 30px;
+    opacity: 1;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .social__mob {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .search button {
+    top: 4px;
+  }
+
+  .searchLc__mobile .search {
+    margin-top: 15px;
+  }
+
+  .social__mob {
+    margin-top: 20px;
+  }
+
+  .lc {
+    margin-top: 20px;
+  }
+
+  .lc__btn {
+    margin-left: 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .leftMenu__item:first-child {
+    margin-top: 30px;
+  }
+
+  .leftMenu__link,
+  .rightMenu__link {
+    font-size: 17px;
+  }
+
+  .logo {
+    position: initial;
+    margin-left: 0;
+  }
+
+  .header__bottom {
+    padding: 10px 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .news__item {
+    width: 262px;
+  }
+
+  .special__item {
+    width: 262px;
+  }
+
+  .footer__wrap {}
+
+  .footer__social {
+    display: none;
+  }
+
+  .footer__wrap ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__wrap ul li {
+    margin-right: 10px;
+  }
+
+  .footer__wrap ul li a {
+    font-size: 13px;
+  }
+
+  .header__top {
+    display: none;
+  }
+
+  .drop-down,
+  .menu {
+    display: block;
+  }
+
+  .menu {
+    background: transparent;
+    border: none;
+  }
+
+  .drop-down {
+    top: 0;
+    z-index: 11;
+  }
+
+  .down {
+    z-index: 11;
+  }
+
+  .mob-searchlc .searchLc {
+    display: block;
+  }
+
+  .mob-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftMenu__item,
+  .rightMenu__item {
+    margin-right: 0;
+  }
+
+  .leftMenu__link,
+  .rightMenu__link {
+    padding: 12px 0;
+  }
+
+  .mob-searchlc {
+    margin-top: 40px;
+  }
+
+  .searchForm,
+  .lc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchForm input {
+    height: 35px;
+    width: 90%;
+  }
+
+  .search button {
+    right: 24px;
+    top: 7px;
+  }
+
+  .lc__btn {
+    padding: 7px 32px;
+    width: 90%;
+  }
+
+  .news-catalog__item {
+    width: 48.5%;
+  }
+
+  .news-page__head-start {
+    height: auto;
+  }
+
+  .news-page__aside {
+    width: 100%;
+  }
+
+  .news-page__aside .news-page__tournament .tournaments__item {
+    width: 45%;
+  }
+
+  .tell__content {
+    flex-direction: column;
+  }
+
+  .tell__text-first {
+    margin-bottom: 15px;
+  }
+
+  .tell__example,
+  .tell__text-first,
+  .tell__form,
+  .tell__form-text {
+    width: 100%;
+  }
+
+  .tell__forms {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .tell__form-text {
+    margin-bottom: 15px;
+  }
+}
+
+
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+
+  .news__items,
+  .special__news {
+    flex-direction: column;
+  }
+
+  .news__item,
+  .special__item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .challenge__wrap .challenge__item {
+    height: 385px;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+
+  .aside .challenge__item {
+    display: none;
+  }
+
+  .challenge__info {
+    justify-content: space-between;
+  }
+
+  .challenge__img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .logo img {
+    width: 55px;
+  }
+
+  .challenge__img-wrap {
+    height: 215px;
+  }
+
+  .challenge__wrap {
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  .aside {
+    height: auto;
+  }
+
+  .footer__wrap {
+    flex-direction: column;
+  }
+
+  .footer__wrap ul:nth-child(1),
+  .footer__wrap ul:nth-child(2),
+  .footer__wrap ul:nth-child(3) {
+    display: none;
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+
+  .footer__wrap ul li a {
+    font-size: 14px;
+  }
+
+  .news-catalog__item {
+    width: 100%;
+  }
+
+  .news-catalog__preview {
+    height: 190px;
+  }
+
+  .news-catalog__head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .news-catalog__title {
+    margin-bottom: 10px;
+  }
+
+  .news-catalog__title-desc {
+    font-size: 12px;
+  }
+
+  .news-page__aside {
+    display: none;
+  }
+
+  .news-page__recent-item {
+    width: 100%;
+  }
+
+  .news-page__recent-item:nth-child(3),
+  .news-page__recent-item:nth-child(4) {
+    display: none;
+  }
+
+  .menu {
+    top: 28px;
+  }
+
+  .tell__form {
+    padding: 12px;
+  }
+
+  .challenge-cat .challenge-cat__title-wrap {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .challenge-cat__title {
+    margin-bottom: 12px;
+  }
+
+  .challenge-cat__intro p {
+    padding: 10px;
+  }
+}

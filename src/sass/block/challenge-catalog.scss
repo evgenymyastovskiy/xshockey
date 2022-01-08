@@ -1,0 +1,124 @@
+.challenge-cat {
+  padding: 40px 0;
+
+  .challenge-cat__title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-size: 16px;
+      font-weight: 700;
+      @extend %bluest-gradient;
+      padding: 5px 20px;
+      color: #fff;
+    }
+  }
+
+  .challenge-cat__title {}
+
+  .challenge-cat__list {
+    .challenge-cat__items {
+      display: flex;
+    }
+
+    .challenge-cat__item {
+      display: flex;
+      flex-direction: column;
+      padding: 15px 10px;
+      height: auto;
+      margin-right: 15px;
+      width: 220px;
+      @extend %bluest-gradient;
+
+      &:nth-child(2) {
+        @extend %malahit-gradient;
+      }
+
+      &:nth-child(3) {
+        @extend %purple-gradient;
+      }
+
+      &:nth-child(4) {
+        @extend %lime-gradient;
+      }
+    }
+  }
+}
+
+.challenge-cat__item .challenge__info h2 {
+  font: 26px "unkempt700";
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.challenge-cat__item .challenge__img-wrap img {
+  height: 170px;
+  width: auto;
+}
+
+.challenge-cat__item .challenge__btn-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.challenge-cat__item .challenge__timer {
+  margin-bottom: 15px;
+}
+
+.challenge-cat__item .challenge__img-wrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.challenge-cat__anons-title,
+.challenge-cat__finish-title,
+.challenge-cat__now-title {
+  margin: 20px 0;
+  color: #bbb;
+}
+
+.challenge-cat__list .challenge-cat__anons .challenge-cat__items .challenge-cat__item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  height: auto;
+  margin-right: 15px;
+  width: 220px;
+  @extend %moon-gradient;
+
+  &:nth-child(2) {
+    @extend %mema-gradient;
+  }
+
+  &:nth-child(3) {
+    @extend %relay-gradient;
+  }
+
+  &:nth-child(4) {
+    @extend %dawn-gradient;
+  }
+}
+
+.challenge-cat__list .challenge-cat__finish .challenge-cat__items .challenge-cat__item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  height: auto;
+  margin-right: 15px;
+  width: 220px;
+  background: #a7a7a7;
+}
+
+.challenge-cat__intro p {
+  font-size: 15px;
+  @extend %bluest-gradient;
+  padding: 20px 40px;
+  border-radius: 5px;
+  color: #fff;
+  line-height: 1.2em;
+  margin-top: 20px;
+}

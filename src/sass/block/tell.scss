@@ -1,0 +1,125 @@
+.tell {
+  padding: 40px 0;
+  min-height: 100vh;
+
+  &__title {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__text-first,
+  &__form-text {
+    width: 48%;
+    font-size: 17px;
+    line-height: 1.45em;
+  }
+
+  &__example {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    width: 48%;
+    box-shadow: 0 0 3px rgb(112 112 112 / 16%);
+    border-radius: 10px;
+    background: url("../img/tellbot.png") no-repeat center bottom / cover;
+  }
+
+  &__example-item {
+    margin-bottom: 10px;
+    position: relative;
+
+    p {
+      font-size: 17px;
+      line-height: 1.45em;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: -15px;
+      @extend %tag-story;
+      width: 10px;
+      height: 2px;
+      border-radius: 50%;
+    }
+  }
+
+  &__forms {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    width: 48%;
+    box-shadow: 0 0 3px rgb(112 112 112 / 16%);
+    border-radius: 10px;
+    background: #252525;
+
+    input {
+      width: 50%;
+      background: transparent;
+      border: none;
+      border: 1px solid #c9c9c9;
+      border-radius: 10px;
+      height: 30px;
+      margin-bottom: 15px;
+      padding: 0 10px;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    textarea {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border: 1px solid #c9c9c9;
+      border-radius: 10px;
+      height: 200px;
+      margin-bottom: 15px;
+      padding: 0 10px;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+
+  }
+
+  &__form-send {
+    @extend %tag-story;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    width: 35%;
+    padding: 6px 0;
+    border-radius: 10px;
+  }
+
+  &__form-title {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  &__form-security {
+    color: #6a6a6a;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+}
