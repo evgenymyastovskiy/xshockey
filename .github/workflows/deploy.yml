@@ -7,11 +7,9 @@ on:
 
 jobs:
   deploy:
+    runs-on: 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
       # Setup key
       - run: set -eu
       - run: mkdir "$HOME/.ssh"
